@@ -1,0 +1,59 @@
+body{ 
+	background-color: #00FA9A;
+}
+
+h1,h2{
+	font-size: 5em;
+}
+
+.box{
+
+	color:#FEE627 ;
+}
+
+:active{
+	color:yellow ;
+}
+
+
+p{
+	font-family:century gothic;
+}
+
+
+table{
+    border-collapse: collapse;
+	border-color:white;
+}
+
+th {
+	background-color: white;
+}
+
+.f1, .f3{
+background-color:orange;
+}
+
+.f2, .f4{
+background-color:yellow;
+}
+ 
+ ul > li:first-child{
+ 	color:yellow;
+ }
+
+ ol > li:last-child{
+ 	color:green;
+ 	font-size:3em;
+ }
+
+
+
+
+ p:first-of-type{
+ 	font-weight: bold;
+ }
+
+ h3 ~ p {
+ 	font-size:3em;
+ }
